@@ -1,33 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-16T05:44:07Z" name="Suite1" finished-at="2021-09-16T05:44:29Z" duration-ms="21729">
+  <suite started-at="2021-09-16T11:47:58Z" name="testCycle1" finished-at="2021-09-16T11:48:29Z" duration-ms="31221">
     <groups>
     </groups>
-    <test started-at="2021-09-16T05:44:07Z" name="Appiumtest" finished-at="2021-09-16T05:44:29Z" duration-ms="21729">
-      <class name="testNgScripts.BeforeClassDemo">
-        <test-method is-config="true" signature="startApp()[pri:0, instance:testNgScripts.BeforeClassDemo@5167f57d]" started-at="2021-09-16T05:44:07Z" name="startApp" finished-at="2021-09-16T05:44:15Z" duration-ms="7454" status="PASS">
+    <test started-at="2021-09-16T11:47:58Z" name="RealDevice Test" finished-at="2021-09-16T11:48:26Z" duration-ms="27553">
+      <class name="scripts16Sep.RealdeviceTest">
+        <test-method signature="RealApiDemos(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts16Sep.RealdeviceTest@68878f6d]" started-at="2021-09-16T11:47:58Z" name="RealApiDemos" finished-at="2021-09-16T11:48:26Z" duration-ms="27505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[96352732140005T]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://127.0.0.1:4733/wd/hub]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startApp -->
-        <test-method signature="clickonViews()[pri:49, instance:testNgScripts.BeforeClassDemo@5167f57d]" started-at="2021-09-16T05:44:15Z" name="clickonViews" finished-at="2021-09-16T05:44:17Z" duration-ms="1813" status="PASS">
+        </test-method> <!-- RealApiDemos -->
+      </class> <!-- scripts16Sep.RealdeviceTest -->
+    </test> <!-- RealDevice Test -->
+    <test started-at="2021-09-16T11:47:58Z" name="Emulator Test" finished-at="2021-09-16T11:48:29Z" duration-ms="31221">
+      <class name="scripts16Sep.EmulatorTestScript">
+        <test-method signature="emulatorApiDemos(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts16Sep.EmulatorTestScript@15d49048]" started-at="2021-09-16T11:47:58Z" name="emulatorApiDemos" finished-at="2021-09-16T11:48:29Z" duration-ms="31178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nexus5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8.1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://127.0.0.1:4723/wd/hub]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickonViews -->
-        <test-method signature="Scroll()[pri:50, instance:testNgScripts.BeforeClassDemo@5167f57d]" started-at="2021-09-16T05:44:17Z" name="Scroll" finished-at="2021-09-16T05:44:26Z" duration-ms="9273" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Scroll -->
-        <test-method signature="RatingStars()[pri:51, instance:testNgScripts.BeforeClassDemo@5167f57d]" started-at="2021-09-16T05:44:26Z" name="RatingStars" finished-at="2021-09-16T05:44:29Z" duration-ms="2860" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RatingStars -->
-        <test-method is-config="true" signature="ClassApp()[pri:0, instance:testNgScripts.BeforeClassDemo@5167f57d]" started-at="2021-09-16T05:44:29Z" name="ClassApp" finished-at="2021-09-16T05:44:29Z" duration-ms="299" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClassApp -->
-      </class> <!-- testNgScripts.BeforeClassDemo -->
-    </test> <!-- Appiumtest -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- emulatorApiDemos -->
+      </class> <!-- scripts16Sep.EmulatorTestScript -->
+    </test> <!-- Emulator Test -->
+  </suite> <!-- testCycle1 -->
 </testng-results>

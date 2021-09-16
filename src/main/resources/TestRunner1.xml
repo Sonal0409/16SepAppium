@@ -2,19 +2,19 @@
   
 <suite name="testCycle1" parallel="tests" thread-count="2" verbose="1" >
   <test name="Emulator Test" >
-  <parameter name="deviceName" value="March20121"/>
-  <parameter name="Version" value="6.0"/>
+  <parameter name="deviceName" value="Nexus5"/>
+  <parameter name="Version" value="8.1.0"/>
   <parameter name="URL" value="http://127.0.0.1:4724/wd/hub"/>
      <classes>
        <class name="testNgScripts.HostelWorldTest" />
     </classes>
   </test>
   <test name="RealDeviceTest" >
-  <parameter name="deviceName" value="443418ec"/>
-  <parameter name="Version" value="8.1.0"/>
+  <parameter name="deviceName" value="96352732140005T"/>
+  <parameter name="Version" value="11"/>
   <parameter name="URL" value="http://127.0.0.1:4733/wd/hub"/>
      <classes>
-         <class name="appiumScripts.SwipeTest"/>
+         <class name="parallelTests.RealDeviceTest"/>
     </classes> 
   </test> 
   </suite>

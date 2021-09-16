@@ -21,7 +21,7 @@
 <version>2.21.0</version>
  <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>src/main/resources/TestNGRunner.xml</suiteXmlFile>
+            <suiteXmlFile>src/main/resources/ParalleTest.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>  
 

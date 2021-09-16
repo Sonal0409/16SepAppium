@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-15T15:30:37 IST" name="Suite1" finished-at="2021-09-15T15:31:28 IST" duration-ms="51221">
+    <groups>
+    </groups>
+    <test started-at="2021-09-15T15:30:37 IST" name="Appiumtest" finished-at="2021-09-15T15:31:06 IST" duration-ms="28631">
+      <class name="testNgScripts.ParameterDemoGoogle">
+        <test-method signature="webappGoogle(java.lang.String,java.lang.String)[pri:0, instance:testNgScripts.ParameterDemoGoogle@618425b5]" started-at="2021-09-15T15:30:37 IST" name="webappGoogle" finished-at="2021-09-15T15:31:06 IST" duration-ms="28534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Appium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[architecture]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webappGoogle -->
+      </class> <!-- testNgScripts.ParameterDemoGoogle -->
+    </test> <!-- Appiumtest -->
+    <test started-at="2021-09-15T15:31:06 IST" name="Appiumtest2" finished-at="2021-09-15T15:31:28 IST" duration-ms="22512">
+      <class name="testNgScripts.ParameterDemoGoogle">
+        <test-method signature="webappGoogle(java.lang.String,java.lang.String)[pri:0, instance:testNgScripts.ParameterDemoGoogle@130c12b7]" started-at="2021-09-15T15:31:06 IST" name="webappGoogle" finished-at="2021-09-15T15:31:28 IST" duration-ms="22508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Appium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mobile testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webappGoogle -->
+      </class> <!-- testNgScripts.ParameterDemoGoogle -->
+    </test> <!-- Appiumtest2 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
